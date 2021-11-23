@@ -1,0 +1,22 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "Full Stack BookShop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSIdiot/BookShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSIdiot/BookShop/issues"
+  },
+  "homepage": "https://github.com/CSIdiot/BookShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
