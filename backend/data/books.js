@@ -159,4 +159,4 @@ const books = [
      
   ]
   
-module.exports = books
+export default books

@@ -1,5 +1,11 @@
-const express = require('express')
-const books = require('./data/books')
+import express from 'express'
+import dotenv from 'dotenv'
+import connectDB from './config/db.js'
+import books from './data/books.js'
+
+
+dotenv.config()
+connectDB()
 
 const app = express()
 
@@ -16,5 +22,6 @@ app.get('/api/books/:id', (req, res) => {
     res.json(book)
 })
 
+const PORT = process.env.PORT
 
-app.listen(8888, console.log('server has started at port 8888...'))
+app.listen(PORT, console.log(`server runs at port number ${PORT}`))

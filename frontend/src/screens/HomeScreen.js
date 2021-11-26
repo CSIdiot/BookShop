@@ -1,10 +1,21 @@
-import React from 'react';
-import books from '../books';
+import React, { useState, useEffect } from 'react'; //UseEffect life cycle
 import { Row, Col } from 'react-bootstrap';
 import Book from '../components/Book';
+import axios from 'axios';
 
 
 const HomeScreen = () => {
+    const [books, setBooks] = useState([])
+
+    useEffect(() => {
+        // console.log("hello")
+        const fetchBooks = async () => {
+            const { data } = await axios.get('/api/books')
+            setBooks(data)
+        }
+        fetchBooks()
+    }, [])
+
     return (
         <>
             <h1>Latest Books</h1>
