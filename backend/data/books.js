@@ -1,6 +1,5 @@
 const books = [
     {
-      _id: '1',
       name: 'Peril',
       image: '/images/Peril.jpg',
       description:
@@ -16,7 +15,6 @@ const books = [
     },
     
     {
-      _id: '2',
       name: 'Apples Never Fall',
       image: '/images/41cF-Khdv+L.jpg',
       description:
@@ -31,7 +29,6 @@ const books = [
       rating: 4.0
     },
     {
-        _id: '3',
         name: 'The Keeper of Happy Endings',
         image: '/images/41sekdLyVCS.jpg',
         description:
@@ -47,7 +44,6 @@ const books = [
     },
 
     {
-        _id: '4',
         name: 'The High 5 Habit: Take Control of Your Life with One Simple Habit',
         image: '/images/41VYxwc6iMS.jpg',
         description:
@@ -63,7 +59,6 @@ const books = [
     },
 
     {
-        _id: '5',
         name: 'Little Blue Truck\'s Halloween',
         image: '/images/51MB5SD5GIL.jpg',
         description:
@@ -79,7 +74,6 @@ const books = [
     },
 
     {
-        _id: '6',
         name: 'Explorer Academy: The Dragon\'s Blood (Book 6) ',
         image: '/images/51uXhN9MV.jpg',
         description:
@@ -91,10 +85,10 @@ const books = [
         PublishDate: 5/10/2021,
         Page: 216,
         Language: "English",
+        rating: 3.5
     },
 
     {
-        _id: '7',
         name: 'Pony',
         image: '/images/pony.jpg',
         description:
@@ -110,7 +104,6 @@ const books = [
     },
 
     {
-        _id: '8',
         name: 'Are You My Mother',
         image: '/images/51BtPDXB24L.jpg',
         description:
@@ -126,7 +119,6 @@ const books = [
     },
 
     {
-        _id: '9',
         name: 'The Wish',
         image: '/images/wish.jpg',
         description:
@@ -142,8 +134,7 @@ const books = [
     },
 
     {
-        _id: '10',
-        name: 'Verity ',
+        name: 'Verity',
         image: '/images/Verity.jpg',
         description:
           'Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish.',
